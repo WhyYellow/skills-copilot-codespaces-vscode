@@ -15,4 +15,6 @@ function skillsMember(){
     skillsButton.style.backgroundColor = "#2ECC71";
     memberListButton.style.backgroundColor = "#2ECC71";
     skillsListButton.style.backgroundColor = "#2ECC71";
+
+    
 }
