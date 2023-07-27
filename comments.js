@@ -3,10 +3,13 @@ const express = require('express');
 const router = express.Router();
 const commentController = require('../controllers/commentController');
 const auth = require('../middleware/auth');
-const {check} = require('express-validator');
+const {check} = require('express-validator')
+
+//sample: api/comments  (GET)   
+
 
 //Create comment
-// api/comment
+// api/comment 
 router.post('/',
     auth,
     [
@@ -36,5 +39,6 @@ router.delete('/:id',
 );
 
 module.exports = router;
+
 
 
